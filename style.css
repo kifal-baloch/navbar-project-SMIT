@@ -1,0 +1,58 @@
+.navbar{
+    height: 70px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-around;
+}
+.logo img{
+    height: 68px;
+    mix-blend-mode: multiply;
+}
+.menu-item{
+    margin-top: 30px;
+}
+.menu-item ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item ul li {
+    margin-left: 20px;
+}
+
+/* .menu-item ul li:first-child {
+    margin-left: 0;
+} */
+
+.menu-item ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.menu-item ul li a:hover {
+    color:  black;
+}
+.btn{
+    background-color:  black;
+    color: white;
+    height: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+.btn a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+
+}
+.btn a:hover{
+    color: red;
+}
